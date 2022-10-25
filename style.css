@@ -1,0 +1,247 @@
+:root {
+  --primary-color: #1a1217;
+  --secondary-color: #be828d;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+  --gradient: linear-gradient(
+    45deg,
+    #ef798aff,
+    #f7a9a8ff,
+    #7d82b8ff,
+    #613f75ff,
+    #e5c3d1ff
+  );
+
+  --font: "Work Sans", sans-serif;
+}
+
+html {
+  margin: auto;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  display: block;
+  font-family: var(--font);
+  background-color: var(--primary-color);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  font-family: var(--font);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.my-navbar {
+  background-color: rgb(65, 54, 68, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 30px;
+  border-color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-family: var(--font);
+}
+
+.name-screen {
+  color: white;
+  background: var(--gradient);
+  margin: -0.1rem 0 0 0;
+  padding: 0;
+  padding-top: 10rem;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  max-width: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.launch-link-purp {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link,
+.contact-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-link:hover,
+.contact-link:hover {
+  background-color: rgb(250, 248, 249, 0.3);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.sub-title {
+  margin-bottom: 150px;
+}
+
+.about-me {
+  background: var(--primary-color);
+}
+
+.about-box {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.about-text {
+  background-color: #49273c;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  color: white;
+}
+
+.about-image {
+  width: 300px;
+  border-radius: 100%;
+}
+
+.home-about {
+  font-size: 20px;
+}
+
+.vert-line {
+  height: 3rem;
+  border-left: 2px solid rgba(65, 54, 68, 0.5);
+  padding: 0;
+  display: flex;
+}
+
+.hello-intro {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.btn-wht {
+  color: var(--primary-color);
+  border: 1.5px solid var(--white-background);
+  background: white;
+  letter-spacing: 0.25px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 27px;
+  padding: 8px 18px;
+  margin-right: 5px;
+}
+
+.btn-wht:hover {
+  color: white;
+  border: 1.5px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.contact-title {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #f1e7e5;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px solid var(--secondary-color);
+  margin: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.steph-bien {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+div .social-icons a {
+  font-size: 20px;
+  margin: 20px 6px;
+  color: var(--secondary-color);
+}
+
+div .social-icons a:hover {
+  color: #49273c;
+}
