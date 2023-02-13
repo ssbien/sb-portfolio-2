@@ -104,6 +104,14 @@ img {
   }
 }
 
+.row {
+  margin-right: 0;
+}
+
+.qc-line {
+  padding-left: 0;
+}
+
 .launch-link-purp {
   border-radius: 4px;
   padding: 20px 15px;
