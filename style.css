@@ -90,6 +90,7 @@ img {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   max-width: 100%;
+  overflow-x: auto;
 }
 
 @keyframes gradient {
@@ -220,7 +221,7 @@ img {
   color: white;
   border: 1.5px solid var(--secondary-color);
   background-color: var(--secondary-color);
-  transition: all 100ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .contact-title {
@@ -248,12 +249,17 @@ img {
   font-weight: 600;
 }
 
-.about-me-section {
+.about-hero {
   padding: 40px;
 }
 
 .about-header {
   padding-top: 20px;
+}
+
+.hero-image {
+  width: 300px;
+  border-radius: 5%;
 }
 
 div .social-icons a {
