@@ -396,3 +396,35 @@ div .social-icons a {
 div .social-icons a:hover {
   color: #49273c;
 }
+
+@media (max-width: 960px) {
+  .steph-bien {
+    font-size: 13px;
+  }
+
+  .qc-line {
+    padding: 0;
+  }
+
+  .name-title {
+    font-size: 45px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .skills-prog {
+    font-size: 10px;
+  }
+
+  .about-edu p {
+    padding-bottom: 15px;
+    font-size: 15px;
+  }
+
+  div .abt-icon {
+    font-size: 30px;
+  }
+}
