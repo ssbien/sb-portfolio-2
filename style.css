@@ -304,8 +304,87 @@ img {
   transition: all 150ms ease-in-out;
 }
 
+.btn-pnk {
+  color: white;
+  border: 1.5px solid var(--white-background);
+  background: var(--secondary-color);
+  letter-spacing: 0.25px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 27px;
+  padding: 8px 18px;
+  margin-right: 5px;
+}
+
+.btn-pnk:hover {
+  color: white;
+  border: 1.5px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+
 .about-edu p {
   padding: 0;
+}
+
+.my-projects {
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 5px 6px 6px rgb(235 234 242 / 58%);
+  transition: all 100ms ease-in-out;
+  margin-top: -10px;
+}
+
+.date-f {
+  font-size: 16px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.contact-bg {
+  background: var(--gradient);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: fit-content;
+}
+
+.contact-card {
+  margin-top: 180px;
+  margin-bottom: 50px;
+  padding: 4rem 6rem;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.contact-card h2 {
+  color: white;
+}
+
+.contact-email {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.contact-email:hover {
+  color: white;
+  opacity: 0.6;
+}
+
+.social-icons-contact a {
+  font-size: 40px;
+  margin: 20px 6px;
+  color: white;
+  padding: 10px;
+}
+
+.social-icons-contact a:hover {
+  color: #49273c;
 }
 
 div .social-icons a {
